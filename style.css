@@ -21,6 +21,9 @@ body {
 
 img {
   max-width: 100%;
+}
+
+#homepic {
   padding: 4px;
   background-color: white;
   border: 1px solid #ccc;
@@ -32,16 +35,12 @@ img {
   margin-top: 20px;
 }
 
-
-.photos img {
-  margin-top: 15px;
-}
-
 #fblogo {
   max-width: 83px;
   padding: 0;
   background-color: #3B5998;
   border: none;
+  border-radius: 4px;
 }
 
 #yelplogo {
@@ -64,6 +63,10 @@ img {
   margin-left: 3%;
 }
 
+.photos p {
+  margin: 0;
+}
+
 .head, #p4 {
   color: #FFB6C1;
 }
@@ -79,6 +82,11 @@ img {
 #p3 {
   color: #FFFF66;
 }
+
+#comments {
+  font-size: 18px;
+}
+
 footer {
   max-width: 90%;
   font-size: 18px;
