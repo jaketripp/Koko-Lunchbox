@@ -1,0 +1,149 @@
+html {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin:0;
+	padding:0;
+	text-align: center;
+  color: #ddd;
+  background: url(images/chalkboard.png) no-repeat fixed center;
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+
+
+img {
+  max-width: 100%;
+  padding: 4px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#logo {
+  max-width: 90%;
+  margin-top: 20px;
+}
+
+
+.photos img {
+  margin-top: 15px;
+}
+
+#fblogo {
+  max-width: 83px;
+  padding: 0;
+  background-color: #3B5998;
+  border: none;
+}
+
+#yelplogo {
+  max-width: 130px;
+  background-color: #d32323;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+
+
+.textbox p {
+  font-size: 28px;
+  font-family: 'Kalam', cursive;
+  list-style: none;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 3%;
+}
+
+.head, #p4 {
+  color: #FFB6C1;
+}
+
+.body {
+  text-indent: 20px;
+}
+
+#p1 {
+  color: #ADD8E6;
+}
+
+#p3 {
+  color: #FFFF66;
+}
+footer {
+  max-width: 90%;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.nav h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: calc(20px + 4 * ((100vw - 300px) / (1350 - 300)));
+  font-size: -webkit-calc(20px + 4 * ((100vw - 300px) / (1350 - 300)));
+  border-radius: 4px;
+  padding: 4px 0;
+}
+
+.nav h1:hover, .active {
+  background-color: rgba(100,100,100,0.3);
+}
+
+
+
+a .active, a:hover, #p2 {
+  color: #9DCB63;
+  text-decoration: none;
+}
+
+a {
+  color: #eee;
+}
+
+
+/** { background-color: rgba(255,0,0,0.3);}
+* * { background-color: rgba(0,255,0,0.3);}
+* * * { background-color: rgba(0,0,255,0.3);}
+* * * * { background-color: rgba(255,0,0,0.3);}
+* * * * * { background-color: rgba(0,255,0,0.3);}*/
+ 
+@media only screen and (min-width: 768px) {
+  
+}
+
+/*@media only screen and (min-width: 500px) and (max-width: 800px) {
+  img {
+    max-width: 70%;
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 800px) {
+  img {
+    max-width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 801px) {
+  #fruits div p {
+    width: 62%;
+    margin-left: 37%;
+  }
+
+  img {
+    float: left;
+    display: inline;
+    width: 35%;
+  }
+}*/
