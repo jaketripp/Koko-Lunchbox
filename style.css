@@ -13,7 +13,8 @@ body {
   padding:0;
   text-align: center;
   color: #ddd;
-  background: url(images/chalkboard.png) no-repeat fixed center;
+  background: url(images/chalkboard.png) no-repeat center;
+  background-size: cover;
   font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
@@ -34,21 +35,26 @@ img {
 }
 
 #fblogo {
-  max-width: 83px;
+  max-width: 64px;
   padding: 0;
   background-color: #3B5998;
   border: none;
   border-radius: 4px;
+  margin-top: 20px;
 }
 
 #yelplogo {
-  max-width: 130px;
+  max-width: 100px;
   background-color: #d32323;
   padding: 0;
   border: none;
   border-radius: 4px;
   margin-left: 10px;
+  margin-top: 20px;
+
 }
+
+
 
 .textbox p {
   font-size: 28px;
@@ -60,7 +66,9 @@ img {
 }
 
 .textbox .body {
-  font-size: calc(22px + 6 * ((100vw - 300px) / (1350 - 300)));
+  font-size: 20px;
+  font-size: calc(20px + 8 * ((100vw - 300px) / (1350 - 300)));
+  font-size: -webkit-calc(20px + 8 * ((100vw - 300px) / (1350 - 300)));
 }
 
 .photos p {
@@ -103,6 +111,7 @@ footer {
 .nav h1 {
   text-align: center;
   font-weight: 900;
+  font-size: 20px;
   font-size: calc(20px + 4 * ((100vw - 300px) / (1350 - 300)));
   font-size: -webkit-calc(20px + 4 * ((100vw - 300px) / (1350 - 300)));
   border-radius: 4px;
@@ -124,17 +133,18 @@ a {
   color: #eee;
 }
  
-@media only screen and (orientation: portrait) and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   
   #yelplogo {
-    max-width: 100px;
+    max-width: 130px;
   }
   
   #fblogo {
-    max-width: 64px;
+    max-width: 83px;
   }
   
   body {
-    background-size: cover;
+    background-size: auto;
+    background-attachment: fixed;
   }
 }
