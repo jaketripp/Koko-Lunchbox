@@ -43,6 +43,7 @@
         <p class="head">Hours:</p>
         <p class="body">Tuesday ~ Saturday</p>
         <p class="body">11:30 a.m ~ 9:00 p.m.</p>
+        <p class="body">Sunday, Monday ~ CLOSED</p>
         <p class="head">Phone:</p>
         <p class="body"><a href="tel:801-669-3468">(801) 669-3468</a></p>
         <p class="head">Address:</p>
@@ -54,6 +55,8 @@
         <a href="https://www.yelp.com/biz/koko-lunchbox-provo" target="_blank"><img id="yelplogo" src="../images/yelp.png" alt="Link to Koko's Lunchbox yelp page"></a>
       </div>
 
+      <div id="map"></div>
+
       <footer class="container">
           <hr/>
           <p>designed and coded by <a href="https://www.linkedin.com/in/jake-tripp" target="_blank">jake tripp</a></p>
@@ -62,6 +65,24 @@
 		</div>
 	</div>	
 </div>
+      
+      <script>
+        function myMap() {
+          var myCenter = new google.maps.LatLng(40.2497529,-111.6596696);
+          var mapCanvas = document.getElementById("map");
+          var mapOptions = {
+            center: myCenter,
+            zoom: 14
+          };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({position: myCenter});
+        marker.setMap(map);
+        }
+      </script>
+
+      <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+
 
 </body>
 </html>

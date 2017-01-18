@@ -67,6 +67,12 @@ img {
   margin: 0;
 }
 
+#map {
+  height: 300px;
+  height: calc(300px + 200 * ((100vw - 300px) / (1350 - 300)));
+  margin-top: 20px;
+}
+
 .head, #p4 {
   color: #FFB6C1;
 }
