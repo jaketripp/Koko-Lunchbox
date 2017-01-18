@@ -17,8 +17,6 @@ body {
   font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
-
-
 img {
   max-width: 100%;
 }
@@ -51,8 +49,6 @@ img {
   border-radius: 4px;
   margin-left: 10px;
 }
-
-
 
 .textbox p {
   font-size: 28px;
@@ -127,13 +123,6 @@ a .active, a:hover, #p2 {
 a {
   color: #eee;
 }
-
-
-/** { background-color: rgba(255,0,0,0.3);}
-* * { background-color: rgba(0,255,0,0.3);}
-* * * { background-color: rgba(0,0,255,0.3);}
-* * * * { background-color: rgba(255,0,0,0.3);}
-* * * * * { background-color: rgba(0,255,0,0.3);}*/
  
 @media only screen and (orientation: portrait) and (max-width: 768px) {
   
@@ -149,30 +138,3 @@ a {
     background-size: cover;
   }
 }
-
-/*@media only screen and (min-width: 500px) and (max-width: 800px) {
-  img {
-    max-width: 70%;
-    margin-left: 15%;
-  }
-}
-
-@media only screen and (orientation: landscape) and (max-width: 800px) {
-  img {
-    max-width: 60%;
-    margin-left: 20%;
-  }
-}
-
-@media only screen and (orientation: landscape) and (min-width: 801px) {
-  #fruits div p {
-    width: 62%;
-    margin-left: 37%;
-  }
-
-  img {
-    float: left;
-    display: inline;
-    width: 35%;
-  }
-}*/
