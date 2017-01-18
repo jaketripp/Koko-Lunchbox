@@ -9,9 +9,9 @@ html {
 }
 
 body {
-	margin:0;
-	padding:0;
-	text-align: center;
+  margin:0;
+  padding:0;
+  text-align: center;
   color: #ddd;
   background: url(images/chalkboard.png) no-repeat fixed center;
   font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
@@ -61,6 +61,10 @@ img {
   text-align: left;
   margin-top: 20px;
   margin-left: 3%;
+}
+
+.textbox .body {
+  font-size: calc(22px + 6 * ((100vw - 300px) / (1350 - 300)));
 }
 
 .photos p {
@@ -131,8 +135,19 @@ a {
 * * * * { background-color: rgba(255,0,0,0.3);}
 * * * * * { background-color: rgba(0,255,0,0.3);}*/
  
-@media only screen and (min-width: 768px) {
+@media only screen and (orientation: portrait) and (max-width: 768px) {
   
+  #yelplogo {
+    max-width: 100px;
+  }
+  
+  #fblogo {
+    max-width: 64px;
+  }
+  
+  body {
+    background-size: cover;
+  }
 }
 
 /*@media only screen and (min-width: 500px) and (max-width: 800px) {
