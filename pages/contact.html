@@ -47,14 +47,14 @@
         <p class="head">Phone:</p>
         <p class="body"><a href="tel:801-669-3468">(801) 669-3468</a></p>
         <p class="head">Address:</p>
-        <p class="body">1175 N Canyon Rd, Provo, Utah, 84604</p>
+        <p class="body"><a href="https://www.google.com/maps/place/Koko+Lunchbox/@40.2497829,-111.6583266,18.25z/data=!4m5!3m4!1s0x0:0x24ef3f25dd416519!8m2!3d40.249753!4d-111.6574809" target="_blank">1175 N Canyon Rd, Provo, Utah</a></p>
       </div>
    
-      <div id="map"></div>  
-
+      <a href="https://www.google.com/maps/place/Koko+Lunchbox/@40.2497829,-111.6583266,18.25z/data=!4m5!3m4!1s0x0:0x24ef3f25dd416519!8m2!3d40.249753!4d-111.6574809" target="_blank"><div id="map"></div></a>
+      
       <div class="photos">
-        <a href="https://www.facebook.com/KoKo-Lunch-Box-1504156449911671/?fref=ts" target="_blank"><img id="fblogo" src="../images/facebook.png" alt="Link to Koko's Lunchbox facebook"></a>
-        <a href="https://www.yelp.com/biz/koko-lunchbox-provo" target="_blank"><img id="yelplogo" src="../images/yelp.png" alt="Link to Koko's Lunchbox yelp page"></a>
+        <a href="https://www.facebook.com/KoKo-Lunch-Box-1504156449911671/?fref=ts" target="_blank"><img id="fblogo" src="https://drive.google.com/uc?id=0B3kzxMwfT4z7dGFlcm1Od0VPdmM" alt="Link to Koko's Lunchbox facebook"></a>
+        <a href="https://www.yelp.com/biz/koko-lunchbox-provo" target="_blank"><img id="yelplogo" src="https://drive.google.com/uc?id=0B3kzxMwfT4z7cG9SNlNBaTh0bms" alt="Link to Koko's Lunchbox yelp page"></a>
       </div>
 
       <footer class="container">
@@ -62,25 +62,28 @@
           <p>designed and coded by <a href="https://www.linkedin.com/in/jake-tripp" target="_blank">jake tripp</a></p>
       </footer> 
 
-		</div>
-	</div>	
+    </div>
+  </div>  
 </div>
+ 
       
-      <script>
-        function myMap() {
-          var myCenter = new google.maps.LatLng(40.2497529,-111.6596696);
-          var mapCanvas = document.getElementById("map");
-          var mapOptions = {
-            center: myCenter,
-            zoom: 14
-          };
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-        var marker = new google.maps.Marker({position: myCenter});
-        marker.setMap(map);
-        }
-      </script>
+  <script>
+    function myMap() {
+      var myCenter = new google.maps.LatLng(40.2497529,-111.6596696);
+      var mapCanvas = document.getElementById("map");
+      var mapOptions = {
+        center: myCenter,
+        zoom: 14
+      };
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+    var marker = new google.maps.Marker({position: myCenter});
+    marker.setMap(map);
+    }
+  </script>
 
-      <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+  <script async defer 
+    src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyAgtKsQWl6KQUcp9addYPMWUJO_a-lEYAA">
+  </script>
 
 
 

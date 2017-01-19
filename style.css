@@ -13,7 +13,7 @@ body {
   padding:0;
   text-align: center;
   color: #ddd;
-  background: url(images/chalkboard.png) no-repeat center;
+  background: url(images/chalkboard.png) no-repeat fixed center;
   background-size: cover;
   font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
@@ -89,7 +89,7 @@ img {
   text-indent: 20px;
 }
 
-#p1 {
+#p1, .textbox p a {
   color: #ADD8E6;
 }
 
@@ -102,7 +102,7 @@ img {
 }
 
 footer {
-  max-width: 90%;
+  max-width: 95%;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -124,7 +124,7 @@ footer {
 
 
 
-a .active, a:hover, #p2 {
+a .active, a:hover, #p2, footer a {
   color: #9DCB63;
   text-decoration: none;
 }
@@ -132,6 +132,7 @@ a .active, a:hover, #p2 {
 a {
   color: #eee;
 }
+
  
 @media only screen and (min-width: 768px) {
   
@@ -141,10 +142,5 @@ a {
   
   #fblogo {
     max-width: 83px;
-  }
-  
-  body {
-    background-size: auto;
-    background-attachment: fixed;
   }
 }
