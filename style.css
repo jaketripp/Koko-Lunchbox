@@ -32,6 +32,7 @@ img {
 #logo {
   max-width: 90%;
   margin-top: 20px;
+  border-radius: 4px;
 }
 
 #fblogo {
