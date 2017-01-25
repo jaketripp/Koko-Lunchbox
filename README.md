@@ -1,4 +1,4 @@
-# Kokos-Lunchbox
+# Koko Lunchbox
 
 This is the code for a Korean Restaurant's website that I created. 
 
