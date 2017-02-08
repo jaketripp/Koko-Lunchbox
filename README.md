@@ -1,12 +1,12 @@
 #Koko Lunchbox
 #### Written with HTML, CSS, & Bootstrap.
 
-You can checkout the website [here](https://jaketripp.github.io/Koko-Lunchbox/ "Koko Lunchbox Homepage"). Next time you find yourself in Provo, Utah, head to the best Korean restaurant in town!  
+You can checkout the website [here](https://jaketripp.github.io/Koko-Lunchbox/ "Koko Lunchbox Homepage"). Next time you find yourself in Provo, Utah, head to the _best_ Korean restaurant in town!  
 
 - - - - 
 
 ### Features:
-* Provides _real_ customer reviews
+* Provides _real_ customer reviews (pulled from Yelp)
 
 * Has a collection of high quality photos of the food
 
