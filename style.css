@@ -13,8 +13,7 @@ body {
   padding:0;
   text-align: center;
   color: #ddd;
-  background: url(images/chalkboard.png) no-repeat fixed center;
-  background-size: cover;
+  background-image: url(images/chalkboard.png);
   font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
