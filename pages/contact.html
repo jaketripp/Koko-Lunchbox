@@ -1,91 +1,101 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Koko Lunchbox Contact</title>
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
+	<title>Koko Lunchbox Contact</title>
 
-  
-  <!--   Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
 
-  <!--   Optional theme  -->  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  
-  <!-- handwriting font -->
-  <link href="https://fonts.googleapis.com/css?family=Kalam|Lato" rel="stylesheet">
+	<!--   Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <link rel="stylesheet" type="text/css" href="../style.css">
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    
+	<!--   Optional theme  -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- handwriting font -->
+	<link href="https://fonts.googleapis.com/css?family=Kalam|Lato" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="../style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/ce33fc6e47.js" async></script>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+	<link rel="manifest" href="../manifest.json">
+	<link rel="mask-icon" href="../safari-pinned-tab.svg" color="#bebebe">
+	<meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
-    
-<div class="everything container">
-  <div class="row">
-    <div class="col-xs-12 col-md-6 col-md-offset-3">
-    
-      <img src="../images/logo.png" id="logo" alt="Koko's Lunchbox Logo">
 
-        <div style="clear: both"></div>
-      
-      <div class="nav row">
-        <a href="../index.html"><h1 class="col-xs-4">Home</h1></a>
-        <a href="photos.html"><h1 class="col-xs-4">Photos</h1></a>
-        <a href=""><h1 class="col-xs-4 active">Contact</h1></a>  
-      </div>
-        <div style="clear: both"></div>
+	<div class="everything container">
+		<div class="row">
+			<div class="col-xs-12 col-md-6 col-md-offset-3">
 
-      <div class="textbox">
-        <p class="head">Hours:</p>
-        <p class="body">Tuesday ~ Saturday</p>
-        <p class="body">11:30 a.m ~ 9:00 p.m.</p>
-        <p class="body">Sunday, Monday ~ CLOSED</p>
-        <p class="head">Phone:</p>
-        <p class="body"><a href="tel:801-669-3468">(801) 669-3468</a></p>
-        <p class="head">Address:</p>
-        <p class="body"><a href="https://www.google.com/maps/place/Koko+Lunchbox/@40.2497829,-111.6583266,18.25z/data=!4m5!3m4!1s0x0:0x24ef3f25dd416519!8m2!3d40.249753!4d-111.6574809" target="_blank">1175 N Canyon Rd, Provo, Utah</a></p>
-      </div>
-   
-      <div id="map"></div>
-      
-      <div class="photos">
-        <a href="https://www.facebook.com/KoKo-Lunch-Box-1504156449911671/?fref=ts" target="_blank"><img id="fblogo" src="https://drive.google.com/uc?id=0B3kzxMwfT4z7dGFlcm1Od0VPdmM" alt="Link to Koko's Lunchbox facebook"></a>
-        <a href="https://www.yelp.com/biz/koko-lunchbox-provo" target="_blank"><img id="yelplogo" src="https://drive.google.com/uc?id=0B3kzxMwfT4z7cG9SNlNBaTh0bms" alt="Link to Koko's Lunchbox yelp page"></a>
-      </div>
+				<img src="../images/logo.png" id="logo" alt="Koko's Lunchbox Logo">
 
-      <footer class="container">
-          <hr/>
-          <p>designed and coded by <a href="https://www.linkedin.com/in/jake-tripp" target="_blank">jake tripp</a></p>
-      </footer> 
+				<div style="clear: both"></div>
 
-    </div>
-  </div>  
-</div>
- 
-      
-  <script>
-    function myMap() {
-      var myCenter = new google.maps.LatLng(40.2497529,-111.6596696);
-      var mapCanvas = document.getElementById("map");
-      var mapOptions = {
-        center: myCenter,
-        zoom: 14
-      };
-    var map = new google.maps.Map(mapCanvas, mapOptions);
-    var marker = new google.maps.Marker({position: myCenter});
-    marker.setMap(map);
-    }
-  </script>
+				<div class="nav row">
+					<a href="../index.html"><h1 class="col-xs-4">Home</h1></a>
+					<a href="photos.html"><h1 class="col-xs-4">Photos</h1></a>
+					<a href=""><h1 class="col-xs-4 active">Contact</h1></a>
+				</div>
+				<div style="clear: both"></div>
 
-  <script async defer 
-    src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyAgtKsQWl6KQUcp9addYPMWUJO_a-lEYAA">
-  </script>
+				<div class="textbox">
+					<p class="head">Hours:</p>
+					<p class="body">Tuesday ~ Saturday</p>
+					<p class="body">11:30 a.m ~ 9:00 p.m.</p>
+					<p class="body">Sunday, Monday ~ CLOSED</p>
+					<p class="head">Phone:</p>
+					<p class="body"><a href="tel:801-856-2176">(801) 856-2176</a></p>
+					<p class="head">Address:</p>
+					<p class="body"><a href="https://www.google.com/maps/place/Koko+Lunchbox/@40.2497829,-111.6583266,18.25z/data=!4m5!3m4!1s0x0:0x24ef3f25dd416519!8m2!3d40.249753!4d-111.6574809" target="_blank">1175 N Canyon Rd, Provo, Utah</a></p>
+
+				</div>
+
+				<div id="map"></div>
 
 
+				
+
+				<footer class="container">
+					<hr/>
+					<div class="links">
+						<a href="https://www.yelp.com/biz/koko-lunchbox-provo" target="_blank"><i class="fa fa-yelp"></i></a>
+						<a href="https://www.facebook.com/KoKo-Lunch-Box-1504156449911671/?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.google.com/maps/place/Koko+Lunchbox/@40.249757,-111.6596696,17z/data=!3m1!4b1!4m5!3m4!1s0x874d90a463f7482d:0x24ef3f25dd416519!8m2!3d40.2497529!4d-111.6574809" target="_blank"><i class="fa fa-google"></i></a>					
+					</div>
+					<p>Made by <a href="http://jaketripp.com" target="_blank">Jake Tripp</a></p>
+				</footer>
+
+			</div>
+		</div>
+	</div>
+
+	<script>
+	function myMap() {
+		var myCenter = new google.maps.LatLng(40.2497529, -111.6596696);
+		var mapCanvas = document.getElementById("map");
+		var mapOptions = {
+			center: myCenter,
+			zoom: 14
+		};
+		var map = new google.maps.Map(mapCanvas, mapOptions);
+		var marker = new google.maps.Marker({ position: myCenter });
+		marker.setMap(map);
+	}
+	</script>
+
+	<script async defer src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyAgtKsQWl6KQUcp9addYPMWUJO_a-lEYAA">
+	</script>
 
 </body>
+
 </html>

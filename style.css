@@ -42,28 +42,15 @@ img {
   margin-top: 20px;
   border-radius: 4px;
 }
-
-#fblogo {
-  max-width: 64px;
-  padding: 0;
-  background-color: #3B5998;
-  border: none;
-  border-radius: 4px;
-  margin-top: 20px;
+.links {
+	margin: 10px auto;
+	font-size: 30px;
 }
 
-#yelplogo {
-  max-width: 100px;
-  background-color: #d32323;
-  padding: 0;
-  border: none;
-  border-radius: 4px;
-  margin-left: 10px;
-  margin-top: 20px;
-
+.links i {
+	padding: 0px 3px;
+	color: white;
 }
-
-
 
 .textbox p {
   font-size: 28px;
